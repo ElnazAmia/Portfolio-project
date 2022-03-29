@@ -31,16 +31,40 @@
   </head>
   <body>
     <div class="container">
-      <nav class="d-flex justify-content-between">
-        <p class="logo"><a href="/"> Elnaz Amia</a></p>
-        <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">work</a></li>
-          <li><a href="/contact.html">contact</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo" href="/">Elnaz amia</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/work.html">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </div>
+
     <div class="main-page-intro">
       <p>👋 Hello, I'm</p>
       <h1>Elnaz Amia</h1>
@@ -118,6 +142,28 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box mb-5 d-none d-md-flex justify-content-between">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a class="btn btn-branding mt-3" href="mailto:elnazamia@yahoo.com"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:elnazamia@yahoo.com" class="email-link">elnazamia@yahoo.com</a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.github.com/ElnazAmia" target="-blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/ElnazAmia" target="-blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.twitter.com/ElnazAmia" target="-blank"><i class="fab fa-twitter"></i></a>
+
+        </div>
+      </footer>
     </div>
   </body>
 </html>
