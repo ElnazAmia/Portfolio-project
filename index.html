@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/styles/portfolio.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -101,7 +102,7 @@
           <img
             src="images/AlbertCamus.png"
             alt="AlbertCamus"
-            class="img-fluid"
+            class="img-fluid" data-aos="zoom-in-right" data-aos-duration="1000"
           />
         </div>
         <div class="col">
@@ -148,7 +149,7 @@
           <img
             src="images/weather.png"
             alt="weather-app-preview"
-            class="img-fluid"
+            class="img-fluid"  data-aos="zoom-in-left" data-aos-duration="1000"
           />
         </div>
       </div>
@@ -157,7 +158,7 @@
           <img
             src="images/dictionary.png"
             alt="DictionaryApp weather-app-preview"
-            class="img-fluid"
+            class="img-fluid"  data-aos="zoom-in-right" data-aos-duration="1000"
           />
         </div>
         <div class="col">
@@ -222,5 +223,9 @@
         </p>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>

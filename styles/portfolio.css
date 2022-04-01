@@ -107,6 +107,10 @@ nav li.active a {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+.profile-photo{
+ border: 2mm ridge #5e87d2; 
+}
 .project-description {
   padding: 120px 60px;
 }
