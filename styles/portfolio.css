@@ -58,8 +58,8 @@ nav li.active a {
 .navbar {
   background-color: #c2dce7;
 }
-.custom-toggler{
-  color: #475582!important;
+.custom-toggler {
+  color: #475582 !important;
   border: none;
 }
 .logo {
@@ -73,7 +73,6 @@ nav li.active a {
   color: var(--branding-color) !important;
 }
 .main-page-intro {
-  
   text-align: center;
   padding: 180px 20px;
   background-image: url(/images/bg.jpg);
@@ -108,8 +107,8 @@ nav li.active a {
   padding: 15px 30px;
 }
 
-.profile-photo{
- border: 2mm ridge #5e87d2; 
+.profile-photo {
+  border: 2mm ridge #5e87d2;
 }
 .project-description {
   padding: 120px 60px;
@@ -142,7 +141,7 @@ nav li.active a {
 .content {
   margin: 30px;
 }
-.contact-link{
+.contact-link {
   font-size: 18px;
 }
 footer {
@@ -181,7 +180,7 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
-footer i{
+footer i {
   font-size: 32px;
 }
 @media (max-width: 915px) {
@@ -192,7 +191,8 @@ footer i{
   nav li a {
     font-size: 14px;
   }
-  .content h1 ,h1{
+  .content h1,
+  h1 {
     font-size: 36px;
     line-height: 1.5;
   }
@@ -202,10 +202,10 @@ footer i{
   h3 {
     font-size: 26px;
   }
-   .main-page-intro{
-     padding: 115px 0 60px 0;
-   }
-  .main-page-intro p{
+  .main-page-intro {
+    padding: 115px 0 60px 0;
+  }
+  .main-page-intro p {
     font-size: 32px;
   }
   .project-description {
